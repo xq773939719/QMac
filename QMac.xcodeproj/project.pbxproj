@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153A8816280F19B900A9DA25 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8815280F19B900A9DA25 /* CoreAudio.framework */; };
+		153A881A280F19C700A9DA25 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8819280F19C700A9DA25 /* OpenGL.framework */; };
+		153A881C280F19D000A9DA25 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A881B280F19D000A9DA25 /* CoreMedia.framework */; };
+		153A881E280F19E600A9DA25 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A881D280F19E600A9DA25 /* AudioToolbox.framework */; };
+		153A8820280F19EC00A9DA25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A881F280F19EC00A9DA25 /* AVFoundation.framework */; };
+		153A8822280F19FB00A9DA25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8821280F19FB00A9DA25 /* CoreGraphics.framework */; };
+		153A8824280F1A0E00A9DA25 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8823280F1A0E00A9DA25 /* CoreVideo.framework */; };
+		153A8826280F1A1400A9DA25 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8825280F1A1400A9DA25 /* VideoToolbox.framework */; };
+		153A8828280F1A2500A9DA25 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8827280F1A2500A9DA25 /* AppKit.framework */; };
+		153A882A280F1A2E00A9DA25 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8829280F1A2E00A9DA25 /* Metal.framework */; };
+		153A882B280F1A5200A9DA25 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8817280F19BF00A9DA25 /* GLKit.framework */; };
+		153A882D280F1A5800A9DA25 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A882C280F1A5800A9DA25 /* JavaScriptCore.framework */; };
+		153A882F280F1A6D00A9DA25 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A882E280F1A6D00A9DA25 /* CoreServices.framework */; };
+		153A8831280F1A7700A9DA25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8830280F1A7700A9DA25 /* MediaPlayer.framework */; };
+		153A8833280F1A7C00A9DA25 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */; };
+		153A8837280F1E5800A9DA25 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8836280F1E5800A9DA25 /* GLUT.framework */; };
 		15D995792802D7490003243D /* BusinessRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995742802D7490003243D /* BusinessRouteManager.m */; };
 		15D9957A2802D7490003243D /* BusinessApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995752802D7490003243D /* BusinessApplicationDelegate.m */; };
 		15D9957B2802D7490003243D /* BusinessEntranceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995772802D7490003243D /* BusinessEntranceManager.m */; };
@@ -21,6 +37,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153A8815280F19B900A9DA25 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		153A8817280F19BF00A9DA25 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		153A8819280F19C700A9DA25 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		153A881B280F19D000A9DA25 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		153A881D280F19E600A9DA25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		153A881F280F19EC00A9DA25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		153A8821280F19FB00A9DA25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		153A8823280F1A0E00A9DA25 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		153A8825280F1A1400A9DA25 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		153A8827280F1A2500A9DA25 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		153A8829280F1A2E00A9DA25 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		153A882C280F1A5800A9DA25 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		153A882E280F1A6D00A9DA25 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		153A8830280F1A7700A9DA25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		153A8836280F1E5800A9DA25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		15D995712802D7490003243D /* BusinessApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessApplicationDelegate.h; sourceTree = "<group>"; };
 		15D995732802D7490003243D /* BusinessRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRouteManager.h; sourceTree = "<group>"; };
 		15D995742802D7490003243D /* BusinessRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessRouteManager.m; sourceTree = "<group>"; };
@@ -52,7 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153A881C280F19D000A9DA25 /* CoreMedia.framework in Frameworks */,
+				153A8831280F1A7700A9DA25 /* MediaPlayer.framework in Frameworks */,
+				153A882A280F1A2E00A9DA25 /* Metal.framework in Frameworks */,
+				153A8816280F19B900A9DA25 /* CoreAudio.framework in Frameworks */,
+				153A8837280F1E5800A9DA25 /* GLUT.framework in Frameworks */,
+				153A8826280F1A1400A9DA25 /* VideoToolbox.framework in Frameworks */,
+				153A8820280F19EC00A9DA25 /* AVFoundation.framework in Frameworks */,
+				153A882F280F1A6D00A9DA25 /* CoreServices.framework in Frameworks */,
+				153A8822280F19FB00A9DA25 /* CoreGraphics.framework in Frameworks */,
+				153A881E280F19E600A9DA25 /* AudioToolbox.framework in Frameworks */,
+				153A8833280F1A7C00A9DA25 /* MediaToolbox.framework in Frameworks */,
 				FE5D20CA33F12DBABE301D8F /* Pods_QMac.framework in Frameworks */,
+				153A8828280F1A2500A9DA25 /* AppKit.framework in Frameworks */,
+				153A881A280F19C700A9DA25 /* OpenGL.framework in Frameworks */,
+				153A882B280F1A5200A9DA25 /* GLKit.framework in Frameworks */,
+				153A8824280F1A0E00A9DA25 /* CoreVideo.framework in Frameworks */,
+				153A882D280F1A5800A9DA25 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +227,22 @@
 		E185931C867E0F587E696D61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				153A8836280F1E5800A9DA25 /* GLUT.framework */,
+				153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */,
+				153A8830280F1A7700A9DA25 /* MediaPlayer.framework */,
+				153A882E280F1A6D00A9DA25 /* CoreServices.framework */,
+				153A882C280F1A5800A9DA25 /* JavaScriptCore.framework */,
+				153A8829280F1A2E00A9DA25 /* Metal.framework */,
+				153A8827280F1A2500A9DA25 /* AppKit.framework */,
+				153A8825280F1A1400A9DA25 /* VideoToolbox.framework */,
+				153A8823280F1A0E00A9DA25 /* CoreVideo.framework */,
+				153A8821280F19FB00A9DA25 /* CoreGraphics.framework */,
+				153A881F280F19EC00A9DA25 /* AVFoundation.framework */,
+				153A881D280F19E600A9DA25 /* AudioToolbox.framework */,
+				153A881B280F19D000A9DA25 /* CoreMedia.framework */,
+				153A8819280F19C700A9DA25 /* OpenGL.framework */,
+				153A8817280F19BF00A9DA25 /* GLKit.framework */,
+				153A8815280F19B900A9DA25 /* CoreAudio.framework */,
 				870FFFED99CCAB6690CA6403 /* Pods_QMac.framework */,
 			);
 			name = Frameworks;
