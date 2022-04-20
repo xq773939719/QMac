@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
         NSApplication *application = [NSApplication sharedApplication];
         BusinessApplicationDelegate *delegate = [BusinessApplicationDelegate new];
         application.delegate = delegate;
+        [application run];
     }
     return NSApplicationMain(argc, argv);
 }

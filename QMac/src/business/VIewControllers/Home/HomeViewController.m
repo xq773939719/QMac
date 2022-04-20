@@ -8,8 +8,6 @@
 
 @interface HomeViewController ()
 
-@property (nonatomic, strong) NSTextField *textfield;
-
 @end
 
 @implementation HomeViewController
@@ -20,20 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addSubview:self.textfield];
-    [self.textfield mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.mas_equalTo(self.rootContainer);
-        make.height.mas_equalTo(@(300));
-    }];
-}
-
-- (NSTextField *)textfield {
-    if (_textfield) {
-        return _textfield;
-    }
-    _textfield = [NSTextField new];
-    _textfield.font = [NSFont systemFontOfSize:40];
-    return _textfield;
+    
+    CGFloat delayTime = 2;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayTime * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSUInteger style = NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskResizable | NSWindowStyleMaskFullSizeContentView;
+        NSWindow *window = [[NSWindow alloc] initWithContentRect:CGRectZero styleMask:style backing:NSBackingStoreBuffered defer:YES];
+        window.contentViewController = [BaseViewController new];
+        [window setTitle:@""];
+        [self.entranceManager setCurrentWindow:window];
+    });
+    
 }
 
 @end

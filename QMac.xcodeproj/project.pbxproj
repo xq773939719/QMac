@@ -27,12 +27,9 @@
 		15D9957A2802D7490003243D /* BusinessApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995752802D7490003243D /* BusinessApplicationDelegate.m */; };
 		15D9957B2802D7490003243D /* BusinessEntranceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995772802D7490003243D /* BusinessEntranceManager.m */; };
 		15DE7BA12802C40700454A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DE7BA02802C40700454A64 /* Assets.xcassets */; };
-		15DE7BA42802C40700454A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DE7BA22802C40700454A64 /* Main.storyboard */; };
 		15DE7BA62802C40700454A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DE7BA52802C40700454A64 /* main.m */; };
 		15E38E1028030F9E00177020 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E38E0E28030F9E00177020 /* HomeViewController.m */; };
-		15E38E1128030F9E00177020 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E38E0F28030F9E00177020 /* HomeViewController.xib */; };
 		15E38E1A2803122800177020 /* BusinessLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E38E182803122800177020 /* BusinessLaunchViewController.m */; };
-		15E38E1B2803122800177020 /* BusinessLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E38E192803122800177020 /* BusinessLaunchViewController.xib */; };
 		FE5D20CA33F12DBABE301D8F /* Pods_QMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870FFFED99CCAB6690CA6403 /* Pods_QMac.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,16 +50,15 @@
 		153A8830280F1A7700A9DA25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		153A8836280F1E5800A9DA25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		153A88392810569700A9DA25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15D995712802D7490003243D /* BusinessApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessApplicationDelegate.h; sourceTree = "<group>"; };
 		15D995732802D7490003243D /* BusinessRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRouteManager.h; sourceTree = "<group>"; };
 		15D995742802D7490003243D /* BusinessRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessRouteManager.m; sourceTree = "<group>"; };
 		15D995752802D7490003243D /* BusinessApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessApplicationDelegate.m; sourceTree = "<group>"; };
 		15D995772802D7490003243D /* BusinessEntranceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessEntranceManager.m; sourceTree = "<group>"; };
 		15D995782802D7490003243D /* BusinessEntranceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessEntranceManager.h; sourceTree = "<group>"; };
-		15DD641D280335AD000D5D73 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		15DE7B972802C40600454A64 /* QMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DE7BA02802C40700454A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15DE7BA32802C40700454A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15DE7BA52802C40700454A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15DE7BA72802C40700454A64 /* QMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QMac.entitlements; sourceTree = "<group>"; };
 		15DE7D9D2802CA0B00454A64 /* BusinessHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessHeader.h; sourceTree = "<group>"; };
@@ -70,10 +66,8 @@
 		15E38E0428030D6B00177020 /* QMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMac-Bridging-Header.h"; sourceTree = "<group>"; };
 		15E38E0D28030F9E00177020 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		15E38E0E28030F9E00177020 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		15E38E0F28030F9E00177020 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		15E38E172803122800177020 /* BusinessLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLaunchViewController.h; sourceTree = "<group>"; };
 		15E38E182803122800177020 /* BusinessLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessLaunchViewController.m; sourceTree = "<group>"; };
-		15E38E192803122800177020 /* BusinessLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessLaunchViewController.xib; sourceTree = "<group>"; };
 		870FFFED99CCAB6690CA6403 /* Pods_QMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A991E88A4572BC72B94594 /* Pods-QMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMac.debug.xcconfig"; path = "Target Support Files/Pods-QMac/Pods-QMac.debug.xcconfig"; sourceTree = "<group>"; };
 		F7EB84259D730C3AE0851712 /* Pods-QMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMac.release.xcconfig"; path = "Target Support Files/Pods-QMac/Pods-QMac.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		153A88382810568200A9DA25 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				153A88392810569700A9DA25 /* README.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
 		15D995722802D7490003243D /* RouteManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,11 +148,11 @@
 		15DE7B992802C40600454A64 /* QMac */ = {
 			isa = PBXGroup;
 			children = (
+				153A88382810568200A9DA25 /* doc */,
 				15DE7BA72802C40700454A64 /* QMac.entitlements */,
 				15E38E0428030D6B00177020 /* QMac-Bridging-Header.h */,
 				15DE7BA52802C40700454A64 /* main.m */,
 				15DE7BA02802C40700454A64 /* Assets.xcassets */,
-				15DE7BA22802C40700454A64 /* Main.storyboard */,
 				15DE7D9A2802C9E900454A64 /* src */,
 			);
 			path = QMac;
@@ -192,7 +194,6 @@
 			children = (
 				15E38E172803122800177020 /* BusinessLaunchViewController.h */,
 				15E38E182803122800177020 /* BusinessLaunchViewController.m */,
-				15E38E192803122800177020 /* BusinessLaunchViewController.xib */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -210,7 +211,6 @@
 			children = (
 				15E38E0D28030F9E00177020 /* HomeViewController.h */,
 				15E38E0E28030F9E00177020 /* HomeViewController.m */,
-				15E38E0F28030F9E00177020 /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -309,10 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E38E1B2803122800177020 /* BusinessLaunchViewController.xib in Resources */,
 				15DE7BA12802C40700454A64 /* Assets.xcassets in Resources */,
-				15DE7BA42802C40700454A64 /* Main.storyboard in Resources */,
-				15E38E1128030F9E00177020 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,18 +372,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		15DE7BA22802C40700454A64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15DE7BA32802C40700454A64 /* Base */,
-				15DD641D280335AD000D5D73 /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		15DE7BA82802C40700454A64 /* Debug */ = {
@@ -520,7 +505,6 @@
 					"$(SRCROOT)/QMac/**",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,7 +542,6 @@
 					"$(SRCROOT)/QMac/**",
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

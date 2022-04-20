@@ -17,6 +17,10 @@
     [super viewDidLoad];
 }
 
+- (void)loadView {
+    self.view = [[NSView alloc] initWithFrame:CGRectMake(0, 0, 1600, 900)];
+}
+
 - (void)viewDidAppear {
     [super viewDidAppear];
     CGFloat delayTime = 0.2;
