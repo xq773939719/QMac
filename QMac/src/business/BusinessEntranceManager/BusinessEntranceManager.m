@@ -9,7 +9,7 @@
 #import "BusinessLaunchViewController.h"
 #import "HomeViewController.h"
 
-@interface BusinessEntranceManager () <LaunchViewControllerProtocol, NSWindowDelegate>
+@interface BusinessEntranceManager () <LaunchViewControllerProtocol>
 
 @end
 
@@ -36,6 +36,7 @@
 }
 
 #pragma mark - LaunchViewControllerProtocol
+
 - (void)showRootViewController {
     self.window.contentViewController = self.rootViewController;
     if ([self.rootViewController isKindOfClass:[BaseViewController class]]) {

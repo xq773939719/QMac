@@ -23,7 +23,7 @@
 
 - (void)viewDidAppear {
     [super viewDidAppear];
-    CGFloat delayTime = 0.2;
+    CGFloat delayTime = 5;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayTime * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.delegate showRootViewController];
     });
