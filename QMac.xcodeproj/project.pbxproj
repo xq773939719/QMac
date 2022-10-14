@@ -23,6 +23,7 @@
 		153A8831280F1A7700A9DA25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8830280F1A7700A9DA25 /* MediaPlayer.framework */; };
 		153A8833280F1A7C00A9DA25 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */; };
 		153A8837280F1E5800A9DA25 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A8836280F1E5800A9DA25 /* GLUT.framework */; };
+		1588357128F95CE600F5AFF5 /* Chronos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1588356F28F95AC200F5AFF5 /* Chronos.framework */; };
 		15D995792802D7490003243D /* BusinessRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995742802D7490003243D /* BusinessRouteManager.m */; };
 		15D9957A2802D7490003243D /* BusinessApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995752802D7490003243D /* BusinessApplicationDelegate.m */; };
 		15D9957B2802D7490003243D /* BusinessEntranceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D995772802D7490003243D /* BusinessEntranceManager.m */; };
@@ -51,6 +52,7 @@
 		153A8832280F1A7C00A9DA25 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		153A8836280F1E5800A9DA25 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		153A88392810569700A9DA25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1588356F28F95AC200F5AFF5 /* Chronos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chronos.framework; sourceTree = "<group>"; };
 		15D995712802D7490003243D /* BusinessApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessApplicationDelegate.h; sourceTree = "<group>"; };
 		15D995732802D7490003243D /* BusinessRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRouteManager.h; sourceTree = "<group>"; };
 		15D995742802D7490003243D /* BusinessRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessRouteManager.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				153A882B280F1A5200A9DA25 /* GLKit.framework in Frameworks */,
 				153A8824280F1A0E00A9DA25 /* CoreVideo.framework in Frameworks */,
 				153A882D280F1A5800A9DA25 /* JavaScriptCore.framework in Frameworks */,
+				1588357128F95CE600F5AFF5 /* Chronos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +110,22 @@
 				153A88392810569700A9DA25 /* README.md */,
 			);
 			path = doc;
+			sourceTree = "<group>";
+		};
+		1588356D28F95AC200F5AFF5 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1588356E28F95AC200F5AFF5 /* Chronos */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		1588356E28F95AC200F5AFF5 /* Chronos */ = {
+			isa = PBXGroup;
+			children = (
+				1588356F28F95AC200F5AFF5 /* Chronos.framework */,
+			);
+			path = Chronos;
 			sourceTree = "<group>";
 		};
 		15D995722802D7490003243D /* RouteManager */ = {
@@ -148,6 +167,7 @@
 		15DE7B992802C40600454A64 /* QMac */ = {
 			isa = PBXGroup;
 			children = (
+				1588356D28F95AC200F5AFF5 /* Framework */,
 				153A88382810568200A9DA25 /* doc */,
 				15DE7BA72802C40700454A64 /* QMac.entitlements */,
 				15E38E0428030D6B00177020 /* QMac-Bridging-Header.h */,
@@ -498,7 +518,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DXFP8TLN85;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMac/Framework/Chronos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,7 +558,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DXFP8TLN85;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMac/Framework/Chronos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
